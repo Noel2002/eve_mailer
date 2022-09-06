@@ -7,7 +7,7 @@ This is a server application that send mails on the Gmail clients using nodemail
  - luminosity: the numerical value of lumonosity reading 
  - water: numerical reading of water level of the pot
 
-##Environment variables
+## Environment variables
 **GMAIL_EMAIL**
 The email of the sender/company
 
