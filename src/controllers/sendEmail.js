@@ -1,5 +1,8 @@
 import sgMail from "@sendgrid/mail";
-  sgMail.setApiKey("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");
+import * as dotenv from "dotenv";
+
+dotenv.config();
+sgMail.setApiKey(process.env.SEND_GRID_API_KEY);
   
 
 const sendEmail = (req, res)=>{
