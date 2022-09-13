@@ -15,7 +15,7 @@ router.get('/email', sendGmail);
 
 app.use('/', router)
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, ()=>{
     console.log(`Listening to port ${port} . . .`);
