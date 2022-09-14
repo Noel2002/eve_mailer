@@ -2,11 +2,11 @@
   "name": "eve_mailer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node ./es5/app.js",
-    "dev": "nodemon ./src/app.js",
+    "dev": "nodemon ./es5/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
